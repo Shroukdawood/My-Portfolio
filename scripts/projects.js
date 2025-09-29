@@ -4,7 +4,7 @@ let PROJECTS = [
         img:'ecommerce.png',
         title:'Project E-Commerce',
         desc:'An e-commerce website built with HTML, CSS,JavaScript and React .Use API from dummyjson.com. It features a product catalog, shopping cart, and user authentication.',
-        link:'https://shroukdawood.github.io/Weather-App/'
+        link:'https://ecomerce-project-iota.vercel.app/'
     },
     {
         video:"project2.mp4",
@@ -18,13 +18,13 @@ let PROJECTS = [
         img:'resturant.png',
         title:'Project Restaurant',
         desc:'A restaurant website built with front-end technologies such as HTML, CSS, JavaScript, and React framework, back-end technologies such as PHP and Laravel, and a REST API. It features a menu, booking system, and customer reviews.',
-        link:'https://judi-azure.vercel.app/menu'
+        link:'https://judi-azure.vercel.app/'
     },
     {
         video:"project4.mp4",
         img:'portfolio.png',
         title:'Project Portfolio',
         desc:'A personal portfolio website built with HTML, CSS, JavaScript, and React. It showcases my projects, skills, and experience.',
-        link:'https://my-portfolio-seven-sooty-82.vercel.app/projects.html'
+        link:'https://my-portfolio-seven-sooty-82.vercel.app/'
     }
 ];
