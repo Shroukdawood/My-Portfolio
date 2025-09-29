@@ -1,0 +1,279 @@
+*{
+         font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+}
+.nav{
+    background-color: rgba(10, 5, 0, 0.63);
+     
+     color: rgb(231, 173, 101);
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: space-around;
+        /* justify-content: space-between; */
+     
+}
+.nav p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 20px;
+    
+}
+.nav ul {
+    float: right; 
+    list-style-type: none;
+     display: flex;
+     gap: 20px;
+     color: rgb(231, 173, 101);
+     text-decoration: none;
+     font-weight: bold ;
+}
+.nav ul li a{
+    text-decoration: none;
+     color: rgb(231, 173, 101);
+    /* display: block; */
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.nav ul li a:hover {
+    background-color: black;
+    color: rgb(250, 203, 163);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    
+}
+  .social-image{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    /* margin: 10px; */
+  }
+  .left{
+    font-size: 15px;
+   width: 20%;
+    float: left;
+  }
+  .right{
+   width: 80%;
+    float: right;
+  }
+  .skills{
+    padding: 5px;
+    margin: 5px 0;
+  }
+  .skills::after{
+    display: table;
+    clear: both;
+    content: "";
+
+  }
+  .main-bar{
+    background-color: gray;
+    height: 20px;
+    display: block;
+  }
+  .main-bar span{
+   background-color:  rgb(151, 78, 14);
+   height: 20px;
+   display: block;
+    color: white;
+  }
+  .html{
+    width: 90%;
+   animation: html 2s ease-in-out;
+  }
+  @keyframes html{
+    from{width: 0%;}
+    to{width: 90%;}
+  }
+  .css{
+width: 85%;
+   animation: css 2s ease-in-out;
+  }
+  @keyframes css{
+    from{width: 0%;}
+    to{width: 85%;}
+  }
+  .javascript{
+width: 80%;
+   animation: javascript 2s ease-in-out;
+  }
+  @keyframes javascript{
+    from{width: 0%;}
+    to{width: 80%;}
+  }
+  .typescript{
+width: 70%;
+   animation: typescript 2s ease-in-out;
+  }
+  @keyframes typescript{
+    from{width: 0%;}
+    to{width: 70%;}
+  }
+  .react{
+width: 90%;
+   animation: react 2s ease-in-out;
+  }
+  @keyframes react{
+    from{width: 0%;}
+    to{width: 90%;}
+  }
+  .mysql{
+width: 80%;
+   animation: mysql 2s ease-in-out;
+  }
+  @keyframes mysql{
+    from{width: 0%;}
+    to{width: 80%;}
+  }
+  .php {
+width: 85%;
+   animation: php 2s ease-in-out;
+  }
+  @keyframes php{
+    from{width: 0%;}
+    to{width: 85%;}
+  }
+  .laravel{
+width: 85%;
+   animation: laravel 2s ease-in-out;
+  }
+  @keyframes laravel{
+    from{width: 0%;}
+    to{width: 85%;}
+  }
+  .front{
+width: 96%;
+   animation: front 2s ease-in-out;
+  }
+  @keyframes front{
+    from{width: 0%;}
+    to{width: 96%;}
+  }
+  .fullstack{
+width: 90%;
+   animation: fullstack 2s ease-in-out;
+  }
+  @keyframes fullstack{
+    from{width: 0%;}
+    to{width: 90%;}
+  }
+  .data-analysis{
+width: 85%;
+   animation: data-analysis 2s ease-in-out;
+  }
+  @keyframes data-analysis{
+    from{width: 0%;}
+    to{width: 85%;}
+  }
+  .python{
+width: 70%;
+   animation: python 2s ease-in-out;
+  }
+  @keyframes python{
+    from{width: 0%;}
+    to{width: 70%;}
+  }
+  .power-bi{
+width: 80%;
+   animation: power-bi 2s ease-in-out;
+  }
+  @keyframes power-bi{
+    from{width: 0%;}
+    to{width: 80%;}
+  }
+  .excel{
+width: 60%;
+   animation: excel 2s ease-in-out;
+  }
+  @keyframes excel{
+    from{width: 0%;}
+    to{width: 60%;}
+  }
+  .sql{
+width: 75%;
+   animation: sql 2s ease-in-out;
+  }
+  @keyframes sql{
+    from{width: 0%;}
+    to{width: 75%;}
+  }
+
+ @media screen and (max-width: 768px) {
+   .column {
+     width: 100%;
+     float: none;
+   }  
+    .left{
+      width: 30%;
+      float: left;
+    }
+    .right{
+      width: 70%;
+      float: right;
+    }
+ }
+@media  screen and (max-width: 600px) {
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .nav p {
+        font-size: 16px;
+        padding: 10px;
+        margin: 0;
+    }
+    .nav{
+        justify-content: center;
+    }
+
+  
+}
+
+@media  screen and (max-width: 400px) {
+    .left{
+      width: 40%;
+      float: left;
+    }
+    .right{
+      width: 60%;
+      float: right;
+    }
+    .nav ul {
+        gap: 5px;
+    }
+    .nav {
+        justify-content: center;
+    }
+    .nav ul li {
+        font-size: 14px;
+        padding: 5px;
+        margin: 0;
+    }
+    .social-image{
+      width: 25px;
+      height: 25px;
+      padding: 3px;
+    } 
+    .profile-image{
+      width: 150px;
+      height: 150px;
+    } 
+}
