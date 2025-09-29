@@ -25,6 +25,6 @@ let PROJECTS = [
         img:'portfolio.png',
         title:'Project Portfolio',
         desc:'A personal portfolio website built with HTML, CSS, JavaScript, and React. It showcases my projects, skills, and experience.',
-        link:'https://my-portfolio.vercel.app/'
+        link:'https://my-portfolio-seven-sooty-82.vercel.app/projects.html'
     }
 ];
